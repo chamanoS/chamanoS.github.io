@@ -307,6 +307,11 @@ h6 { font-size: 16px;}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .portfolio .portfolio-item {
 	margin-bottom: 30px;
   }
