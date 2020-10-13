@@ -276,8 +276,8 @@ h6 { font-size: 16px;}
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	padding-bottom: 50px;
-	padding-top: 50px;
-	gap:100px;
+	padding-top: 30px;
+	gap:80px;
 }
 
 #skills{
