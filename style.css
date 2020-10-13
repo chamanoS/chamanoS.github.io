@@ -305,12 +305,24 @@ h6 { font-size: 16px;}
 	font-size: 14px;
 }
 /*--------------------------------------------------------------
+# styling the images
+--------------------------------------------------------------*/
+.img-fluid{
+	width: 350px;
+	height: 200px;
+	margin: 15px;
+	object-fit: cover;
+	box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+	border-radius: 2px;
+}
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio-container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 10px;
+	row-gap: 1em;
 }
 .portfolio .portfolio-item {
 	margin-bottom: 30px;
@@ -353,7 +365,7 @@ h6 { font-size: 16px;}
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
-	background: rgba(0, 0, 0, 0.6);
+	/* background: rgba(0, 0, 0, 0.6); */
   }
   
   .portfolio .portfolio-wrap::before {
@@ -505,6 +517,41 @@ h6 { font-size: 16px;}
 	background-color: var(--buttonColor);
 	border:none;
 }
+
+.social-b a:hover{
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+}
+
+.social-b a:hover i{
+    color: #FFFFFF;
+    transition: all ease 0.5s;
+}
+.social-b{
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+.social-b a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.social-b i{
+    color: #2b2b2b;
+    font-size: 20px;
+}
+
 
 @media screen and (max-width:1200px){
     .main-container{
