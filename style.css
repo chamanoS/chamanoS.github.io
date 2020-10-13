@@ -117,6 +117,23 @@ h6 { font-size: 16px;}
 	align-items: center;
 	background-color: var(--mainColor);
 }
+.btns{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Russo One', sans-serif;
+}
+.hire-btn{
+    /* border: 2px solid #373636; */
+	color: #373636;
+	margin: 5px;
+	padding: 10px;
+}
+.down-cv{
+	color: #373636;
+	margin: 5px;
+	padding: 10px;
+}
 .dots-wrapper{
 	display: flex;
 	padding: 10px;
@@ -154,11 +171,12 @@ h6 { font-size: 16px;}
 #profile_pic{
 	display: block;
 	margin:0 auto;
-
-	height: 200px;
-	width: 200px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+	height: 220px;
+	width: 220px;
 	object-fit: cover;
 	border:2px solid var(--borderColor);
+	border-radius: 3px;
 }
 #theme-options-wrapper{
 	display: flex;
@@ -207,13 +225,13 @@ h6 { font-size: 16px;}
     grid-area: right-column;
     display: grid;
     align-content: center;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
 }
 #preview-shadow{
 	background-color: var(--previewShadow);
 	max-width: 300px;
-	height: 180px;
+	height: 250px;
 	padding-left: 30px;
 	padding-top: 30px;
 }
