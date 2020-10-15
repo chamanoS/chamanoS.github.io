@@ -281,7 +281,7 @@
 			<a href=""></a>
 			<h3 style="text-align: center;">Get In Touch</h3>
 
-			<form id="contact-form" method="POST" action="https://formspree.io/f/mjvpyorl">
+			<form id="contact-form" name="RegForm" method="POST" action="https://formspree.io/f/mjvpyorl" onsubmit="return validation()">
 				<a name="contact"></a>
 
 				<label>Name</label>
@@ -291,7 +291,7 @@
 				<input class="input-field" type="text" name="subject">
 
 				<label>Email</label>
-				<input class="input-field" type="text" name="_replyto">
+				<input class="input-field" type="text" name="email">
 
 				<label>Message</label>
 				<textarea class="input-field" name="message"></textarea>
@@ -309,6 +309,7 @@
 	</div>
 
 	<script src="script.js"></script>
+	<script src="validation.js"></script>
 </body>
 
 </html>
