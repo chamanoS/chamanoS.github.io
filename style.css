@@ -619,15 +619,15 @@ h6 { font-size: 16px;}
 		row-gap: 0.4em;
 	}
 	.img-fluid{
-		width: 300px;
+		width: 280px;
 		height: 200px;
-		margin: 5px;
+		margin: 3px;
 		object-fit: cover;
 		box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
 		border-radius: 2px;
 	}
 	.portfolio-wrap{
-		margin-left: 50px;
+		margin-left: 40px;
 	}
 
 }
