@@ -629,6 +629,10 @@ h6 { font-size: 16px;}
 	.portfolio-wrap{
 		margin: 55px;
 	}
+	.social-b a{
+		width: 35px;
+		height: 35px;
+	}
 
 }
 @media screen and (max-width:414px){
