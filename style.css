@@ -611,7 +611,7 @@ h6 { font-size: 16px;}
 }
 
 
-@media screen and (max-width:535px){
+@media screen and (max-width:565px){
 	.portfolio-container{
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
@@ -619,16 +619,29 @@ h6 { font-size: 16px;}
 		row-gap: 0.4em;
 	}
 	.img-fluid{
-		width: 280px;
+		width: 300px;
+		height: 200px;
+		margin: 10px;
+		object-fit: cover;
+		box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+		border-radius: 2px;
+	}
+	.portfolio-wrap{
+		margin: 55px;
+	}
+
+}
+@media screen and (max-width:414px){
+	
+	.img-fluid{
+		width: 250px;
 		height: 200px;
 		margin: 3px;
 		object-fit: cover;
 		box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
 		border-radius: 2px;
 	}
-	.portfolio-wrap{
-		margin-left: 40px;
-	}
 
 }
+
 
