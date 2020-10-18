@@ -578,7 +578,8 @@ h6 { font-size: 16px;}
 @media screen and (max-width:1200px){
     .main-container{
         width: 95%;
-    }
+	}
+	
 }
 
 @media screen and (max-width:800px){
@@ -592,5 +593,32 @@ h6 { font-size: 16px;}
     }
     .right-column{
         justify-content: center;
-    }
+	}
+	.portfolio-container{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 5px;
+		row-gap: 0.7em;
+	}
+}
+
+
+@media screen and (min-width:500px){
+	.portfolio-container{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		column-gap: 5px;
+		row-gap: 0.4em;
+	}
+
+}
+
+@media screen and (max-width:500px){
+	.portfolio-container{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		column-gap: 5px;
+		row-gap: 0.4em;
+	}
+
 }
