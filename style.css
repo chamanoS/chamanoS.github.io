@@ -600,25 +600,35 @@ h6 { font-size: 16px;}
 		column-gap: 5px;
 		row-gap: 0.7em;
 	}
+	.img-fluid{
+		width: 280px;
+		height: 200px;
+		margin: 5px;
+		object-fit: cover;
+		box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+		border-radius: 2px;
+	}
 }
 
 
-@media screen and (min-width:500px){
+@media screen and (max-width:535px){
 	.portfolio-container{
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		column-gap: 5px;
 		row-gap: 0.4em;
 	}
-
-}
-
-@media screen and (max-width:500px){
-	.portfolio-container{
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		column-gap: 5px;
-		row-gap: 0.4em;
+	.img-fluid{
+		width: 300px;
+		height: 200px;
+		margin: 5px;
+		object-fit: cover;
+		box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+		border-radius: 2px;
+	}
+	.portfolio-wrap{
+		margin-left: 50px;
 	}
 
 }
+
