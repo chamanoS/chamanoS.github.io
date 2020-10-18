@@ -642,8 +642,17 @@ h6 { font-size: 16px;}
 		border-radius: 2px;
 	}
 	.social-b a{
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		width: 30px;
 		height: 30px;
+		padding: 0px;
+		margin: 0px;
+		line-height: 0px;
+		background-color: #ffffff;
+		border: 1px solid #cbcbcb;
+		box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 	}
 
 }
